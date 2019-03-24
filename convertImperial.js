@@ -52,11 +52,6 @@ function convertDown(measurement, conversionRatio) {
  * @param {string} toUnit Unit to convert to (e.g. miles).
  */
 function convert(measurement, fromUnit, toUnit) {
-  // This would be a good case for piping or composing our helper
-  // functions using a library like ramda.
-  // It would be much cleaner that way as opposed to this one.
-  // I'll do without it here for now.
-
   if (fromUnit == null || typeof fromUnit !== 'string' || !UNITS_ORDERED_BY_MAGNITUDE.includes(fromUnit.toUpperCase()))
       throw `fromUnit: ${fromUnit} is not a valid unit.`;
 
