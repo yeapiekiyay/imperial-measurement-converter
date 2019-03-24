@@ -8,7 +8,7 @@ Import the converter function in your JavaScript file and call it as much as you
 
 ```js
 // myAwesomeJsFile.js
-const convert = require('./convertImperial);
+const convert = require('./convertImperial');
 
 let converted = convert(52, 'inches', 'feet');
 
