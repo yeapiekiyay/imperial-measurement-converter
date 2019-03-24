@@ -1,0 +1,4 @@
+# Jest code coverage
+coverage/
+node_modules/
+
